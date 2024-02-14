@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+ul { 
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    ul li.card {
+        width: unset;
+    }   
+}
+
+@media screen and (min-width: 768px) 
+{
+ul {
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+	}
+  & li:last-child 
+{
+    width: 1000px;
+    }
+
+@media screen and (min-width: 1200px) {
+    ul li.card {
+        width: 20rem;
+    }   
+}
+@media screen and (min-width: 1200px) {
+ul {
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    & li:last-child {
+        width: 1000px;
+        }
+  }
+}
