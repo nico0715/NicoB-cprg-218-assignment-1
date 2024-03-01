@@ -21,7 +21,9 @@ img {
 @media screen and (min-width: 1200px) {
   img {
     min-height: 16.375rem;
+	  
   }
+	iframe{ min-height: 16.375rem;}
 }
 
 .card-content {
@@ -32,3 +34,8 @@ img {
 .subheader {
   margin: 0;
 }
+iframe {border-bottom: 0.25rem solid #fc0;
+  border-radius: 0.25rem 0.25rem 0 0;
+  height: auto;
+  width: 100%;
+	}
